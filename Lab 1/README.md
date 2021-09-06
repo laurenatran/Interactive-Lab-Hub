@@ -9,13 +9,6 @@ There is no actor that plays Tinkerbell--her existence in the play comes from th
 For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. 
 
 
-### Deliverables for this lab are: 
-1. Storyboard
-1. Sketches/photos of costumed device
-1. Any reflections you have on the process
-1. Video sketch of the prototyped interaction
-1. Submit the items above in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
-
 ### The Report
 This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
 
@@ -31,8 +24,6 @@ Our original brainstorming storyboards center on an alarm clock that wakes up th
 
 
 \*\***Include a picture of your storyboard here**\*\*
-
-
 Storyboards: 
 The storyboards depict various wake up scenarios where a users is woken up by a light of their choice (warm and yellow versus cool and blue)
 https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5716.jpg 
@@ -40,15 +31,13 @@ https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_571
 https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5718.jpg
 https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5719.jpg
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+
 
 \*\***Summarize feedback you got here.**\*\*
 Our original idea was to simply wake up users with a bright white light. However, on examining this situation, we realized that a bright white light would be a jarring wakeup, almost as jarring as waking up with a loud noise which is the situation our users are trying to avoid. As a result, we changed our idea from a bright white light to colored lights of various intensities that would allow users to choose the intensity of their light wake up. 
 
 
 ## Part B. Act out the Interaction
-
-Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 One issue we ran into when setting up this prototype was that the light source was not strong enough to wake someone up, especially if the device is set on a bedside table, similar to where an alarm clock normally is. To compensate, we decided to add more light sources around the room that would fill the room with the desired amount of light rather than having one, singular, weak light source. 
@@ -60,32 +49,19 @@ We also hope to include in future iterations an additional light signal after th
 
 ## Part C. Prototype the device
 
-You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device. 
-
-Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
-
-We invented this tool for this lab! 
-
-If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
-
 \*\***Give us feedback on Tinkerbelle.**\*\*
 The tinkerbell application was not very compatible with the school wifi as the wifi sets up profiles and makes it so we cannot connect to tinkerbell through our phones without the use of a hotspot.
 
-## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 First take: 
 https://drive.google.com/file/d/1bq7N8M7WNwY-ZNuzF1jpazFCqK-ky8hC/view?usp=sharing
 
 \*\***Show the follow-up work here.**\*\*
-
+ We made changes to the user interaction of the device and how bright our light source was. We also discussed potential options for showing the secondary source of light after the user wakes up indicating the temperature outside.
 
 ## Part E. Costume the device
 
-Only now should you start worrying about what the device should look like. Develop a costume so that you can use your phone as this device.
-
-Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
 https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5720.JPG
