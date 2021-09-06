@@ -33,10 +33,17 @@ Our original brainstorming storyboards center on an alarm clock that wakes up th
 \*\***Include a picture of your storyboard here**\*\*
 
 
+Storyboards: 
+The storyboards depict various wake up scenarios where a users is woken up by a light of their choice (warm and yellow versus cool and blue)
+https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5716.jpg 
+https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5717.jpg
+https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5718.jpg
+https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5719.jpg
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
+Our original idea was to simply wake up users with a bright white light. However, on examining this situation, we realized that a bright white light would be a jarring wakeup, almost as jarring as waking up with a loud noise which is the situation our users are trying to avoid. As a result, we changed our idea from a bright white light to colored lights of various intensities that would allow users to choose the intensity of their light wake up. 
 
 
 ## Part B. Act out the Interaction
@@ -44,8 +51,11 @@ Present your idea to the other people in your breakout room. You can just get fe
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+One issue we ran into when setting up this prototype was that the light source was not strong enough to wake someone up, especially if the device is set on a bedside table, similar to where an alarm clock normally is. To compensate, we decided to add more light sources around the room that would fill the room with the desired amount of light rather than having one, singular, weak light source. 
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+Get a stronger light source ie: projecting the desired light throughout the room. This was hard to model with the prototype, but the end goal is the device has a projector feature that floods the room with the chosen light color and strength: such as a light purple all across the ceiling, walls, etc at a brightness of 100000 nits. This setting should be controlled and set by the user based on their preferences.
+We also hope to include in future iterations an additional light signal after the user wakes up. This second light source will portray the temperature of the outside environment. Red for hot, green or purple for temperate, and blue for cold. The user will be able to customize his or her preferences: ie: Mayur thinks that above 50 F is actually really hot (whereas some people might think over 80F is hot)! So a red light will go on if it’s 51 degrees outside. This way, a user will know how the temperature is relative to his or her own preferences rather than regular temperature standards.
 
 
 ## Part C. Prototype the device
@@ -59,14 +69,14 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
-
+The tinkerbell application was not very compatible with the school wifi as the wifi sets up profiles and makes it so we cannot connect to tinkerbell through our phones without the use of a hotspot.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
-
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+First take: 
+https://drive.google.com/file/d/1bq7N8M7WNwY-ZNuzF1jpazFCqK-ky8hC/view?usp=sharing
 
 \*\***Show the follow-up work here.**\*\*
 
@@ -78,16 +88,23 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 \*\***Include sketches of what your device might look like here.**\*\*
+https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5720.JPG
+https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5723.JPG
+https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5724.JPG
+https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_5721%202.JPG
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
-
+We wanted the user to have minimal interaction with the device and to have a pleasant experience waking up. By incorporating 3 buttons to select the lighting type, we reduce the complexity of the device and make the choice easier. 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+https://drive.google.com/file/d/1KYFaKCW9vSYkfiUnFc0pLhP_Si_52kMK/view?usp=sharing
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+Alex Kluver, Magdalena Horowitz, Mayur Bhandary
 
 
 
