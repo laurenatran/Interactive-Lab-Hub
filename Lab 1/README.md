@@ -33,10 +33,6 @@ https://github.com/laurenatran/Interactive-Lab-Hub/blob/Fall2021/Lab%201/IMG_571
 
 
 
-\*\***Summarize feedback you got here.**\*\*
-Our original idea was to simply wake up users with a bright white light. However, on examining this situation, we realized that a bright white light would be a jarring wakeup, almost as jarring as waking up with a loud noise which is the situation our users are trying to avoid. As a result, we changed our idea from a bright white light to colored lights of various intensities that would allow users to choose the intensity of their light wake up. 
-
-
 ## Part B. Act out the Interaction
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
@@ -86,14 +82,20 @@ Alex Kluver, Magdalena Horowitz, Mayur Bhandary
 
 # Staging Interaction, Part 2 
 
-This describes the second week's work for this lab activity.
+## Part A. Plan 
+
+\*\***Describe your setting, players, activity and goals here.**\*\*
+For our second iteration of this device, we kept the setting, players, activity, and goals the same. The user is a person who may live in a dark area that does not get much sunlight. The activity is waking up and the goal is to wake up gently without a jarring, loud alarm clock. We aim to use light to wake up the user naturally, imitating natural sunlight and a sunrise at the time the user wants to wake up. 
 
 
 ## Prep (to be done before Lab on Wednesday)
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
 \*\***Summarize feedback from your partners here.**\*\*
+Most of the feedback centered on concerns that the single light source was not enough to wake up users. People were unsure if they would actually be able to wake up with a single light alarm. Others wanted more customizability on the light - rather than only be able to use the light to mimic sunlight/cloudiness, maybe users should be able to pick light colors based on individual preferences and aethetics. For example, if a user had a pink bedroom and liked the color pink, they could choose a pink light to wake them up. 
+
+Our original idea was to simply wake up users with a bright white light. However, on examining this situation, we realized that a bright white light would be a jarring wakeup, almost as jarring as waking up with a loud noise which is the situation our users are trying to avoid. As a result, we changed our idea from a bright white light to colored lights of various intensities that would allow users to choose the intensity of their light wake up. People were also concerned if they slept in a room with other people, the light alarm woudl wake everybody up. 
+
+We wanted to keep the device as a single light source rather than expand to multiple lights that would fill a room. Accordingly, we changed out device from a bedside alarm to a light up sleep mask that would glow softly, not bldinging the user but keepng the light in their face such that it would wake the user up. A major concern here was to avoid blinding the user and shininign the light right in their face so we want to ensure the light is soft and glowing to avoid harming the user's eyes. Additionally, to account for the feedback regardig multiple people sleeping in a room, the eye mask lights would only affect the user themself and not affect other people in the room. 
 
 ## Make it your own
 
