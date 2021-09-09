@@ -97,7 +97,12 @@ Our original idea was to simply wake up users with a bright white light. However
 
 We wanted to keep the device as a single light source rather than expand to multiple lights that would fill a room. Accordingly, we changed out device from a bedside alarm to a light up sleep mask that would glow softly, not bldinging the user but keepng the light in their face such that it would wake the user up. A major concern here was to avoid blinding the user and shininign the light right in their face so we want to ensure the light is soft and glowing to avoid harming the user's eyes. Additionally, to account for the feedback regardig multiple people sleeping in a room, the eye mask lights would only affect the user themself and not affect other people in the room. 
 
+Lastly, to further avoid users not waking up to the alarm, we added a vibration features. Our hope is that the use of both the soft lights and the alarms will be able to have enough simulation to actually wake users up without being as jarring as a typical sound alarm clock
+
 ## Make it your own
+
+![IMG_5781](https://user-images.githubusercontent.com/89945550/132703493-65eabe0b-b7cc-4134-90bd-601232df504c.JPG)
+
 
 Do last week’s assignment again, but this time: 
 1) It doesn’t have to (just) use light, 
