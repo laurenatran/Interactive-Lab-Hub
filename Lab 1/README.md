@@ -99,6 +99,10 @@ We wanted to keep the device as a single light source rather than expand to mult
 
 Lastly, to further avoid users not waking up to the alarm, we added a vibration features. Our hope is that the use of both the soft lights and the alarms will be able to have enough simulation to actually wake users up without being as jarring as a typical sound alarm clock
 
+Prototype:
+![IMG_5812](https://user-images.githubusercontent.com/89945550/132994298-d76adac1-04ba-4169-af13-10943bdb7549.JPG)
+
+
 ## Make it your own
 
 ![IMG_5781](https://user-images.githubusercontent.com/89945550/132703493-65eabe0b-b7cc-4134-90bd-601232df504c.JPG)
