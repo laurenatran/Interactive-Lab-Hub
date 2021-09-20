@@ -81,40 +81,43 @@ while True:
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py
     # Setting Time Variable
     y = top
+    Month = "10"
+    Day = "1"
+    Year = "2021"
     Time = strftime("%H:%M:%S")
     Holiday = ("Holiday")
     days_until = 0
     Screencolor = ("#FFFFFF")
     # setting up holidays based on month and date
-    if strftime("%m") == "09":
-       days_until = str(29 - int(strftime("%d")))
+    if Month == "09":
+       days_until = str(29 - int(Day))
        Holiday = ("your birthday!")
        Screencolor = "#FF75DE"
-    if strftime("%m") == "10": 
-       if (int(strftime("%d")))<5:
-            days_until = str(5 - int(strftime("%d")))
+    if Month == "10": 
+       if (int(Day))<5:
+            days_until = str(5 - int(Day))
             Holiday = ("Sydney's birthday!")
             Screencolor = "#75E6FF"
-       elif (int(strftime("%d")))<=27:
-            days_until = str(27 - int(strftime("%d")))
+       elif (int(Day))<=27:
+            days_until = str(27 - int(Day))
             Holiday = ("Sophie's birthday!")
             Screencolor = "#C375FF"
-       elif (int(strftime("%d")))<=31:
-            days_until = str(31 - int(strftime("%d")))
+       elif (int(Day))<=31:
+            days_until = str(31 - int(Day))
             Holiday = ("Halloween!")
             Screencolor = "#FFB375"
-    if strftime("%m") == "11": 
-       if (int(strftime("%d")))<25:
-            days_until = str(25 - int(strftime("%d")))
+    if Month == "11": 
+       if (int(Day))<25:
+            days_until = str(25 - int(Day))
             Holiday = ("Thanksgiving!")
             Screencolor = "#BF3F00"
-    if strftime("%m") == "12":
-       if (int(strftime("%d")))<25:
-            days_until = str(25 - int(strftime("%d")))
+    if Month == "12":
+       if (int(Day))<25:
+            days_until = str(25 - int(Day))
             Holiday = ("Christmas!")
             Screencolor = "#FF0000"
        else:
-            days_until = str(31 - int(strftime("%d")))
+            days_until = str(31 - int(Day))
             Holiday = ("New Years Eve!")
             Screencolor = "#C2C2C2"
     if days_until == "0":
