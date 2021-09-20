@@ -75,7 +75,7 @@ My code in screen_clock.py is configured using the strftime to capture current d
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
-
+https://drive.google.com/file/d/1D1cZJM2ePubKxQdQTBiHWnK5oVR9BZ9V/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
