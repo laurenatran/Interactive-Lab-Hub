@@ -52,9 +52,11 @@ while True:
     else:
         backlight.value = True  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
-        display.fill(screenColor) # set the screen to the users color
+        #display.fill(screenColor) # set the screen to the users color
+        print('Button A Pressed')
     if buttonA.value and not buttonB.value:  # just button B pressed
-        display.fill(color565(255, 255, 255))  # set the screen to white
+        #display.fill(color565(255, 255, 255))  # set the screen to white
+        print('Button B Pressed') 
     if not buttonA.value and not buttonB.value:  # none pressed
-        display.fill(color565(0, 255, 0))  # green
+        print('issue')  # green
 
