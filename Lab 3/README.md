@@ -102,7 +102,8 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
-[Scanned Documents 3.pdf](https://github.com/laurenatran/Interactive-Lab-Hub/files/7281627/Scanned.Documents.3.pdf)
+![reminder_storyboard](https://user-images.githubusercontent.com/89945550/135932985-6e7f5a8b-0bdb-47ed-a831-c8e4bc183a32.jpg)
+
 
 
 
