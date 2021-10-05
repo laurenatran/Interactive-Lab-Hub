@@ -102,16 +102,36 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
+![reminder_storyboard](https://user-images.githubusercontent.com/89945550/135932985-6e7f5a8b-0bdb-47ed-a831-c8e4bc183a32.jpg)
+
+
+
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+User: Device! Remind me to turn the oven off in 15 minutes!
+Device: Reminder to turn off the overn in 15 minutes set!
+
+*15 minutes later*
+Device: Reminder to turn off the oven! Have you turned off the oven?
+
+Scenario 1:
+User: Done!
+Device: Reminder turned off
+
+Scenario 2:
+User: *no response*
+Device: Reminding you again! Have you turned off the oven?
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+https://drive.google.com/file/d/1At6lyxFqHCK6y2jG_ZwGsoN5dbem8LGj/view?usp=sharing
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+One challenge was understanding how to address the device and make it understand that the user is speaking to it. Another vague part of the process was how to respond to the device's reminders. The first time we acted this out and the user asked for a reminder to be set, the device did not respond and the lack of feedback was confusing - I added the device responses so the user could be sure the command went through. 
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
