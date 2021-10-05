@@ -1,0 +1,1 @@
+flite -voice slt -t "Hi Lauren"
