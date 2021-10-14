@@ -167,7 +167,8 @@ When users are practicing public speaking, they will speak their speech into the
 *Include videos or screencaptures of both the system and the controller.*
 
 Storyboard: 
-[Scanned Documents 4.pdf](https://github.com/laurenatran/Interactive-Lab-Hub/files/7342151/Scanned.Documents.4.pdf)
+![Scanned Documents 4](https://user-images.githubusercontent.com/89945550/137234548-c681af06-76c2-4a67-bd0f-44e629a79558.jpg)
+
 
 
 Video: https://drive.google.com/file/d/1XVyTCGR02zlu7juaQqAwl2_e8jWWHtxI/view?usp=sharing
