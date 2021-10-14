@@ -148,6 +148,11 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+##Ideas
+- grocery list -> press button for new item
+- middle of the night ideas -> press button to start recording 
+- speech practice -> button will light up everytime the word "um" or "like" is used
+
 ## Prototype your system
 
 The system should:
@@ -156,6 +161,7 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+When users are practicing public speaking, they will speak their speech into the microphone. Everytime the user says a filler word such as "like" or "um", the light will light up and the device will record the number of times the filler words are used. The goal of this is to allow participants who may be shy to practice speeches in private while still getting feedback
 
 *Include videos or screencaptures of both the system and the controller.*
 
