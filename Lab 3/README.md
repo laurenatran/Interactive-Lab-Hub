@@ -167,7 +167,8 @@ When users are practicing public speaking, they will speak their speech into the
 *Include videos or screencaptures of both the system and the controller.*
 
 Storyboard: 
-![Scanned Documents 4](https://user-images.githubusercontent.com/89945550/137234548-c681af06-76c2-4a67-bd0f-44e629a79558.jpg)
+![Scanned Documents 4](https://user-images.githubusercontent.com/89945550/137234693-29eeee17-0d88-4633-b59f-d362d83439b7.png)
+
 
 
 
