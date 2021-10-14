@@ -102,8 +102,9 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
-![reminder_storyboard](https://user-images.githubusercontent.com/89945550/135932985-6e7f5a8b-0bdb-47ed-a831-c8e4bc183a32.jpg)
+![reminder_storyboard]
 
+(https://user-images.githubusercontent.com/89945550/135932985-6e7f5a8b-0bdb-47ed-a831-c8e4bc183a32.jpg)
 
 
 
@@ -148,7 +149,7 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
-##Ideas
+## Ideas
 - grocery list -> press button for new item
 - middle of the night ideas -> press button to start recording 
 - speech practice -> button will light up everytime the word "um" or "like" is used
@@ -161,9 +162,15 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
-When users are practicing public speaking, they will speak their speech into the microphone. Everytime the user says a filler word such as "like" or "um", the light will light up and the device will record the number of times the filler words are used. The goal of this is to allow participants who may be shy to practice speeches in private while still getting feedback
+When users are practicing public speaking, they will speak their speech into the microphone. Everytime the user says a filler word such as "like" or "um", the light will light up and the device will record the number of times the filler words are used. At the end of the interaction, the screen will show the user how many filler words were used. The goal of this is to allow participants who may be shy to practice speeches in private while still getting feedback
 
 *Include videos or screencaptures of both the system and the controller.*
+
+Storyboard: 
+[Scanned Documents 4.pdf](https://github.com/laurenatran/Interactive-Lab-Hub/files/7342151/Scanned.Documents.4.pdf)
+
+
+Video: https://drive.google.com/file/d/1XVyTCGR02zlu7juaQqAwl2_e8jWWHtxI/view?usp=sharing
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -171,18 +178,20 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+One of my users who really didn't like public speaking said this device would be very helpful for being able to practice speaking in private without the pressure of having someone else watch her practice. She said the count at the end helped her get feedback of filler words that she might not even be aware of when practicing speaking. A negative about the device was that the light up button was distracting and users were sometimes fixating on the light which made them use even more filler words because their mind was no longer focused on the speech. One future iteration of this device could allow users to choose whether they would like the light feature or not, depending on whether they found is helpful or distracting. 
 
-### What worked well about the controller and what didn't?
+One thing that did not work well with the device was there it was unclear when the users was finished speaking. Without a vocal cue to tell the device the speech was over rather than the user taking a pause, the device did not know when to show the final display with the overall count of filler words. The device needs some way of knowing when the speech is ending while still allowing the user to take pauses if needed. 
 
-\*\**your answer here*\*\*
+### What worked well about the controller and what didn't? (I answered this as, what went well about acting as the wizard for this device)
+
+Acting as the light was a bit distracting for users and I noticed them watching my hands rather than focusing on their speech. I did not tell some of my test users why the light would go on and it seemed to make people nervous to see me as if I was judging their speaking skills when the whole purpose of the device is to alleviate people's nerves when public speaking. What worked well was that it was easy to count the number of filler words by pressing the button. I was unable to implement (yet) the ability of the device to count the number of filler words from the recording and input that into the display. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+One big takeaway was that if the wizard was too obvious, it took away from the entire interaction. Users were focusing on what I was doing rather than what the device was doing and interacting with the device as if it was a human capable of judging the user rather than a non human entity was essential for users to feel they were practicing their speeches "in private. "
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+One interesting dataset could look at whether users used less filler words the more they used the device. If the device helped people practice, ideally, there should be a decrease in the number of filler words used as a user improves at public speaking. Another dataset could count the number of times filler words were used in famous speeches. Rather than using the device for practicing speaking, the recorder could listen to recordings of speeches such as acceptance speeches at the VMAs and see if there are any trends in speech length and the user of filler words. 
 
