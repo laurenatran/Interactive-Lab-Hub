@@ -68,6 +68,22 @@ F) [Record the interaction](#part-f)
 
 ## The Report (Part 1: A-D, Part 2: E-F)
 
+### Lab ideas
+- alarm clock that turns off when it senses you've turned the light on 
+- coffee machine that tells whne your coffee has the right amount of milk based on the color
+- proximity sensor for finding your phone
+- snake game with the joystick
+
+### Coffee Idea brainstorm
+Light/Proximity/Gesture sensor: tell what color the coffee is
+- sensor could be on the milk carton
+- could be on the coffee maker
+- could be an independent device like a phone camera
+- could be on a mug
+Capacitive Sensing, a.k.a. Human-Twizzler Interaction: gives user a warning that the cup is hot if they touch it too soon
+Distance Sensor: makes sure the user doesn't forget their cofee when they leave
+- 
+
 ### Part A
 ### Capacitive Sensing, a.k.a. Human-Twizzler Interaction 
 
