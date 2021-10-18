@@ -290,7 +290,13 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-The tricky part is balancing the amount of hardware on the device to increase functionality and interaction with the actual weight and usability of the device itself. The mug may need to need to be larger, taller, or a little heavier to implement all the desired features.
+Display: One difficult part to figure out was where to put the display on the mug to make it easy to read. Our first sketch has the display on the side which we thought was a pretty design but may be difficult for the user to read since the mug must be set on its bottom (rather than its side) when the mug is used. We also figured it may be hard to read the device if the display is on the side incase people are holding the mug and covering the display which led us to the idea of having a projected display. We also played with the idea of using a separate device with a display as well. 
+
+Color sensor: Our sketches also brought up the question of how the color sensor could see the color of the coffee without actually being in contact with the cofee which could be dangerous. We did not want the sensor right in the device so we found out it was probably best to use a clear glass mug similar to a mason jar to place the color sensor on the outside while still being able to sense through the mug the color of the coffee. 
+
+Weight: As we were drawing the sketches, there were many sensors that we originally wanted in the device which may greatly increase the weight of the mug. The tricky part is balancing the amount of hardware on the device to increase functionality and interaction with the actual weight and usability of the device itself.
+
+The mug may need to need to be larger, taller, or a little heavier to implement all the desired features.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
