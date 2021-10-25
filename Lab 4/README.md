@@ -173,10 +173,6 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 #### Looks like:
 To show what the device will look like, we created a paper prototype, a paper/pi prototype, and a physical prototype.  Because we wanted our display to have color, we were unable to use the mini scren for a functional prototype and needed to use the large screen that attached directly onto the pi which was difficult to integrate into a 3d physical prototype. To illutrate the shape of the device, we found it was better to create a fully paper prototype to be able to mimic what the mug would look like with the sensors seamlessly integrated. This prototype was unable to capture the weight of the prototype but gave a better visual as to the functionalities and overall look of the device. Because we wanted to use color, we used the larger screen to create a prototype with paper and the pi. This allowed us to show how the device dislay would look built into the mug. The bulkiness of the pi made it difficult to create a mug shape around it so we decided to make this prototype 2d. Our last physical prototype made with the glass mason jar and the sensors attached illustrates the weight and feel of the prototype. We wanted to be able to mimic the weight of a normal sized mug with the attached sensors. This prototype did not look exactly like our intended device but gave the feel of the device to users. 
 
-Paper:
-Paper/Pi:
-Physical: 
-
 #### Works like and looks like: 
 To show how the device works and how users should interact with the device, we filmed these videos that showcased the 3 features of the mug. The first video shows how users can input the desired color of their coffee and how the device will prompt users to continue adding milk to their coffee until it reaches the desired color. 
 
