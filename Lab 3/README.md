@@ -166,8 +166,7 @@ When users are practicing public speaking, they will speak their speech into the
 
 *Include videos or screencaptures of both the system and the controller.*
 
-Storyboard: 
-Storyboard: https://drive.google.com/file/d/1uw63HIDq4oIbn3F-nSAtNAYXh1ukjcxe/view?usp=sharing
+Storyboard: https://drive.google.com/file/d/16D2SPq5ddjzlZIMd0lUq9BbXVlqV0CWz/view?usp=sharing
 
 Video: https://drive.google.com/file/d/1XVyTCGR02zlu7juaQqAwl2_e8jWWHtxI/view?usp=sharing
 
