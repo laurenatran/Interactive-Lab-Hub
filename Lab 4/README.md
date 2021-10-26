@@ -2,7 +2,6 @@
 
 For lab this week, we focus on both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
 
-## Part 1 Lab Preparation
 
 ## Deliverables \& Submission for Lab 4
 
@@ -34,7 +33,6 @@ F) [Record the interaction](#part-f)
 
 ## The Report (Part 1: A-D, Part 2: E-F)
 
-
 ###  Lab Partners: Magdalena Horowitz (myh26) and Lauren Tran (lat89)
 ## Lab ideas Brainstorming Pad: 
 - alarm clock that turns off when it senses you've turned the light on
@@ -49,6 +47,20 @@ F) [Record the interaction](#part-f)
 - could be an independent device like a phone camera
 - could be on a mug Capacitive Sensing, a.k.a. Human-Twizzler Interaction: gives user a warning that the cup is hot if they touch it too soon Distance Sensor:
 - makes sure the user doesn't forget their cofee when they leave
+
+
+### Part A
+### Capacitive Sensing, a.k.a. Human-Twizzler Interaction
+### Part B
+### More sensors
+
+#### Light/Proximity/Gesture sensor (APDS-9960)
+
+#### (Optional) Distance Sensor
+
+We also used this sensor. Please keep reading for further details on implementation and a demo.
+
+You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L1X_Py) to learn more about the sensor and see other examples!
 
 ### Part C
 ### Physical considerations for sensing
@@ -98,7 +110,6 @@ Option 5 would also be extremely useful, because sometimes when you pour a cup o
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
-
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
@@ -121,19 +132,19 @@ Option 5 would also be extremely useful, because sometimes when you pour a cup o
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-Display: One difficult part to figure out was where to put the display on the mug to make it easy to read. Our first sketch has the display on the side which we thought was a pretty design but may be difficult for the user to read since the mug must be set on its bottom (rather than its side) when the mug is used. We also figured it may be hard to read the device if the display is on the side incase people are holding the mug and covering the display which led us to the idea of having a projected display. We also played with the idea of using a separate device with a display as well. 
+Display: One difficult part to figure out was where to put the display on the mug to make it easy to read. Our first sketch has the display on the side which we thought was a pretty design but may be difficult for the user to read since the mug must be set on its bottom (rather than its side) when the mug is used. We also figured it may be hard to read the device if the display is on the side incase people are holding the mug and covering the display which led us to the idea of having a projected display. We also played with the idea of using a separate device with a display as well.
 
-Color sensor: Our sketches also brought up the question of how the color sensor could see the color of the coffee without actually being in contact with the cofee which could be dangerous. We did not want the sensor right in the device so we found out it was probably best to use a clear glass mug similar to a mason jar to place the color sensor on the outside while still being able to sense through the mug the color of the coffee. 
+Color sensor: Our sketches also brought up the question of how the color sensor could see the color of the coffee without actually being in contact with the cofee which could be dangerous. We did not want the sensor right in the device so we found out it was probably best to use a clear glass mug similar to a mason jar to place the color sensor on the outside while still being able to sense through the mug the color of the coffee.
 
 Weight: As we were drawing the sketches, there were many sensors that we originally wanted in the device which may greatly increase the weight of the mug. The tricky part is balancing the amount of hardware on the device to increase functionality and interaction with the actual weight and usability of the device itself.
 
 The mug may need to need to be larger, taller, or a little heavier to implement all the desired features.
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+***Pick one of these display designs to integrate into your prototype.***
 
-We decided that design 5 would most likely incorporate the most features while maintaining usability. 
+We decided that design 5 would most likely incorporate the most features while maintaining usability.
 
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+***Explain the rationale for the design.*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 Build a cardbord prototype of your design.
 
@@ -152,8 +163,6 @@ The RGB sensor at the bottom of the mug will be encased in class, sealed off fro
 The distance sensor will remain on the side of the mug and the display screen will sit on the side. 
 
 
-
-
 # ** ACTUAL PROTOTYPE: See the progression of coffee shades that the device will detect: ** 
 ![image](https://user-images.githubusercontent.com/27168450/137631853-c03db935-238d-4f6c-b4f4-1c70476e4db9.png)
 
@@ -169,49 +178,56 @@ LAB PART 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
-### Prototype Final Summary
-#### Looks like:
-To show what the device will look like, we created a paper prototype, a paper/pi prototype, and a physical prototype.  Because we wanted our display to have color, we were unable to use the mini scren for a functional prototype and needed to use the large screen that attached directly onto the pi which was difficult to integrate into a 3d physical prototype. To illutrate the shape of the device, we found it was better to create a fully paper prototype to be able to mimic what the mug would look like with the sensors seamlessly integrated. This prototype was unable to capture the weight of the prototype but gave a better visual as to the functionalities and overall look of the device. Because we wanted to use color, we used the larger screen to create a prototype with paper and the pi. This allowed us to show how the device dislay would look built into the mug. The bulkiness of the pi made it difficult to create a mug shape around it so we decided to make this prototype 2d. Our last physical prototype made with the glass mason jar and the sensors attached illustrates the weight and feel of the prototype. We wanted to be able to mimic the weight of a normal sized mug with the attached sensors. This prototype did not look exactly like our intended device but gave the feel of the device to users. 
+##### Feedback we got from Part 1:
+"I thought it was fun that all your part c sketches were related to coffee, and I think you did a great job of discussing the considerations for your physical prototype and potential ideas to address them. For the color sensor, it would be good to make sure the sensor can distinguish between background color (since the mug is translucent) vs coffee. For the distance sensor, a slight adjustment or addition to the idea could be to have the device alert you that the coffee is done brewing if you are getting too far away."
 
-#### Works like and looks like: 
-To show how the device works and how users should interact with the device, we filmed these videos that showcased the 3 features of the mug. The first video shows how users can input the desired color of their coffee and how the device will prompt users to continue adding milk to their coffee until it reaches the desired color. 
+- Sara Wang, Oct 19 at 2:54pm
 
-Video: https://drive.google.com/file/d/1rlTBrCd26Wl3r7FdVF-HJ4vJsTM7d3SB/view?usp=sharing
+"Cool ideas, I also thought it was funny how all of your initial ideas were related to coffee. My main concern about the implementation of the idea is the close proximity of the sensors to liquid, which it looks like you gave some thought to in your "raised questions" section"
 
-### Part E (Optional)
-### Servo Control with Joystick
+- Alexander Bradley Kluver, Oct 20 at 6:24pm
 
-In the class kit, you should be able to find the [Qwiic Servo Controller](https://www.sparkfun.com/products/16773) and [Micro Servo Motor SG51](https://www.adafruit.com/product/2201). The Qwiic Servo Controller will need external power supply to drive, which we will be distributing the battery packs in the class. Connect the servo controller to the miniPiTFT through qwiic connector and connect the external battery to the 2-Pin JST port (ower port) on the servo controller. Connect your servo to channel 2 on the controller, make sure the brown is connected to GND and orange is connected to PWM.
+" I think this is a really interesting idea. It can help people control their coffee and remind people to pick coffee up, which is useful and convinient. My first concern is that if putting the color detection sensor under the bottom, whether it will only detect black instead of the real color of the coffee. Maybe it can be on the side of the bottle. And my second concern is that the distance sensor can only detect people in front of it, namely, if the user is on the side of the bottle, even if she is close to the bottle, the sensor still can not detect her. Overall, it's a great idea!" 
 
-<img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.15752-9/245605956_303690921194525_3309212261588023460_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=ae9488&_nc_ohc=FvFLlClTKuUAX9nJ3LR&_nc_ht=scontent-lga3-1.xx&oh=b7ec1abc8d458b6c1b7a00a6f11398ac&oe=618D7D96" width="400"/>
+- Tianyun Zou, Oct 21 at 12:18am
 
-In this exercise, we will be using the nice [ServoKit library](https://learn.adafruit.com/16-channel-pwm-servo-driver/python-circuitpython) developed by Adafruit! We will continue to use the `circuitpython` virtual environment we created. Activate the virtual environment and make sure to install the latest required libraries by running:
+" It's very creative, but a lot going on! Might want to focus on on just making one or two features. But it's a great idea!" 
 
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ pip3 install -r requirements.txt
-```
+- Brandon Kyle Newman, Oct 21 at 10:05am
 
-A servo motor is a rotary actuator or linear actuator that allows for precise control of angular or linear position. The position of a servo motor is set by the width of an electrical pulse, that is, we can use PWM (pulse-width modulation) to set and control the servo motor position. You can read [this](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/servo-motors) to learn a bit more about how exactly a servo motor works.
+## ** Based on the feedback we received, we decided to focus on two sensors, try to place them around the cup and not too close to the liquid. In future implementations, we would try double insulating the glass and putting the sensors in the middle layer, protected from the heat of the liquid. Additionally, we would implement smaller distance sensors all around the cup so it could detect the user from every angle. Finally, the color sensor would no longer be on the bottom, it would be in that inner insulated layer that does not touch the heated portion of the mug and it would reside on the front side of the mug behind the screen. **
 
-Now that you have a basic idea of what a servo motor is, look into the script `qwiic_servo_example.py` we provide. In line 14, you should see that we have set up the min_pulse and max_pulse corresponding to the servo turning 0 - 180 degree. Try running the servo example code now and see what happens:
 
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python servo_test.py
-```
-
-It is also possible to control the servo using the sensors mentioned in as in part A and part B, and/or from some of the buttons or parts included in your kit, the simplest way might be to chain Qwiic buttons to the other end of the Qwiic OLED. Like this:
-
-<p align="center"> <img src="chaining.png"  width="200" ></p>
-
-You can then call whichever control you like rather than setting a fixed value for the servo. For more information on controlling Qwiic devices, Sparkfun has several python examples, such as [this](https://learn.sparkfun.com/tutorials/qwiic-joystick-hookup-guide/all#python-examples).
-
-We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
+### Part E (Optional) - Servo Control with Joystick (N/A)
 
 ### Part F
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+
+See images here during the build process of Part 2:
+![IMG_7394](https://user-images.githubusercontent.com/27168450/138793211-733f60d3-659b-404c-91a8-6da4a5e9254d.JPG)
+![image](https://user-images.githubusercontent.com/27168450/138793231-eddf8884-9551-479a-9f8c-f1555e96392a.png)
+![image](https://user-images.githubusercontent.com/27168450/138793253-e41a6e77-86a3-4a16-be8c-45e5bfc5204b.png)
+![image](https://user-images.githubusercontent.com/27168450/138793264-d7335e47-fb75-4d82-b961-ac8d0cbf6101.png)
+![image](https://user-images.githubusercontent.com/27168450/138794877-d1d41711-eb41-4ae5-82b9-91976b92cd3f.png)
+
+
+
+
+
+
+##### Prototype Final Summary
+#### * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+To show what the device will look like, we created a paper prototype, a paper/pi prototype, and a physical prototype. Because we wanted our display to have color, we were unable to use the mini scren for a functional prototype and needed to use the large screen that attached directly onto the pi which was difficult to integrate into a 3d physical prototype. To illutrate the shape of the device, we found it was better to create a fully paper prototype to be able to mimic what the mug would look like with the sensors seamlessly integrated. This prototype was unable to capture the weight of the prototype but gave a better visual as to the functionalities and overall look of the device. Because we wanted to use color, we used the larger screen to create a prototype with paper and the pi. This allowed us to show how the device dislay would look built into the mug. The bulkiness of the pi made it difficult to create a mug shape around it so we decided to make this prototype 2d. Our last physical prototype made with the glass mason jar and the sensors attached illustrates the weight and feel of the prototype. We wanted to be able to mimic the weight of a normal sized mug with the attached sensors. This prototype did not look exactly like our intended device but gave the feel of the device to users.
+
+#### * "Works like": shows what the device can do
+#### * "Acts like": shows how a person would interact with the device
+To show how the device works and how users should interact with the device, we filmed these videos that showcased the 3 features of the mug. The final video shows how the coffee mug reminds users to come back if they venture too far away from a hot cup of cofee. It also shows how users can input the desired color of their coffee and how the device will prompt users to continue adding milk to their coffee until it reaches the desired color.
+
+#### See the video uploaded on Google Drive for a FULL DEMO (Put sound on to hear VOICE)
+
+https://drive.google.com/file/d/17R9gVht4VkaXWXcz3chjbj25huugX8Mb/view?usp=sharing
+![image](https://user-images.githubusercontent.com/27168450/138792991-085b1db9-974c-4932-b5cd-683043f5ec62.png)
+
 
