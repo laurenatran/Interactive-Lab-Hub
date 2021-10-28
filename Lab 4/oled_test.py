@@ -52,7 +52,7 @@ y_inc = 1
 radius = 8
 
 # start with a blank screen
-oled.fill(0)
+oled.fill("brown")
 # we just blanked the framebuffer. to push the framebuffer onto the display, we call show()
 oled.show()
 while True:

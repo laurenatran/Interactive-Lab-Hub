@@ -24,6 +24,8 @@ while True:
 		distanceFeet = distanceInches / 12.0
 
 		print("Distance(mm): %s Distance(ft): %s" % (distance, distanceFeet))
+		#if distanceFeet > 10:
+		#	print("distance greater than 10 feet")
 
 	except Exception as e:
 		print(e)
