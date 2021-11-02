@@ -100,18 +100,23 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
-Contours Detection: 
-<img width="934" alt="Screen Shot 2021-11-02 at 5 56 57 PM" src="https://user-images.githubusercontent.com/89945550/139960043-4b94eb96-1a95-468d-b7a9-975eb9bdb020.png">
+Contours Detection:
+
+<img width="300" alt="Screen Shot 2021-11-02 at 5 56 57 PM" src="https://user-images.githubusercontent.com/89945550/139960043-4b94eb96-1a95-468d-b7a9-975eb9bdb020.png">
 
 Face Detection:
+
 <img width="300" alt="Screen Shot 2021-11-02 at 6 01 52 PM" src="https://user-images.githubusercontent.com/89945550/139960073-51b64558-8a8f-4c27-8239-717e6e9efd5a.png">
 
 <img width="300" alt="Screen Shot 2021-11-02 at 6 02 16 PM" src="https://user-images.githubusercontent.com/89945550/139960081-9e7b8a9e-1cf7-4b1a-a6da-a22a4cbe8a69.png">
 
-Flow-Detection <img width="680" alt="Screen Shot 2021-11-02 at 6 07 49 PM" src="https://user-images.githubusercontent.com/89945550/139960119-436bf8da-8eec-40ec-8ffd-c188cd09d36b.png">
+Flow-Detection 
+
+<img width="300" alt="Screen Shot 2021-11-02 at 6 07 49 PM" src="https://user-images.githubusercontent.com/89945550/139960119-436bf8da-8eec-40ec-8ffd-c188cd09d36b.png">
 
 Object Detection
-<img width="736" alt="Screen Shot 2021-11-02 at 6 09 59 PM" src="https://user-images.githubusercontent.com/89945550/139960153-bcd515c6-86ac-41da-847f-81a40533df46.png">
+
+<img width="300" alt="Screen Shot 2021-11-02 at 6 09 59 PM" src="https://user-images.githubusercontent.com/89945550/139960153-bcd515c6-86ac-41da-847f-81a40533df46.png">
 
 
 
