@@ -104,21 +104,27 @@ Contours Detection:
 
 <img width="300" alt="Screen Shot 2021-11-02 at 5 56 57 PM" src="https://user-images.githubusercontent.com/89945550/139960043-4b94eb96-1a95-468d-b7a9-975eb9bdb020.png">
 
+The first thing that came to mind with the countours detection example was being able to use this for makeup purposes, especially given the recent trends of enhacing the contours of the face. By using this contour detection algorithm, a makeup artist could use the image of their client's face to determine the best makeup application to enhance the client's face depending on their preferences. Knowing where the contours of a person's face are could help makeup artists deepen and emphasize those contours or minimize them based on the requests of their client. 
+
 Face Detection:
 
 <img width="300" alt="Screen Shot 2021-11-02 at 6 01 52 PM" src="https://user-images.githubusercontent.com/89945550/139960073-51b64558-8a8f-4c27-8239-717e6e9efd5a.png">
 
 <img width="300" alt="Screen Shot 2021-11-02 at 6 02 16 PM" src="https://user-images.githubusercontent.com/89945550/139960081-9e7b8a9e-1cf7-4b1a-a6da-a22a4cbe8a69.png">
 
+A face detection algorithm could be used to count the number of people going into a store so that stores can keep track for covid safety and general crowd purposes. Many stores have a person at the door counting how many people go in and cutting people off if the store limit is reached so that stores are not crowded. Using this algorithm could negate the use of a human counter at the door. 
+
 Flow-Detection 
 
 <img width="300" alt="Screen Shot 2021-11-02 at 6 07 49 PM" src="https://user-images.githubusercontent.com/89945550/139960119-436bf8da-8eec-40ec-8ffd-c188cd09d36b.png">
+
+The optical flow detection algorithm could be used on a large scale to determine walking paths in places where paths do not already exist For example, at my undergrad school people would constantly cut across a grass meadow because it provided a shortcut from the road to a building. The flow detection could illuminate this irregegular path that students favored over the sidewalks which could encourage the university to put a paved path across the grass rather than continue to have the grass trampled and ruined in the meadoww. 
 
 Object Detection
 
 <img width="300" alt="Screen Shot 2021-11-02 at 6 09 59 PM" src="https://user-images.githubusercontent.com/89945550/139960153-bcd515c6-86ac-41da-847f-81a40533df46.png">
 
-
+This algorithm reminded me of whe my parents used to yell at me and my siblings for having toys all over our playroom. The object detection algorithm could be used as an incentive for people to clean their rooms, especially for kids to know that their room is cleaned when the algorithm does not detect any objects on the floor. 
 
 #### MediaPipe
 
@@ -162,6 +168,7 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
+As a child, I hated practicing piano and especially when my mom would tell me that I was using bad form when practicing by having my back slouch or my wrists limp. A hand and body tracking program could determine when students are having bad form and give suggestions to the user to improve their form without having the annoyance of a teacher or parents scolding them. 
 
 
 #### Teachable Machines
@@ -196,6 +203,8 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Whether you make your own model or not, include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.\*\*\***
 
+I trained a model to detec when I was holding a coffee in my hand. This method was interesting because it relied on user inputs to determine how the model was run, leaving it more open ended than the OpenCV or Media Pipe options which were more fixed in scope. Another interesting feature was that the user could input images rather than rely solely on the webcam which was limited. The webcam could only capture so much and was limited by the user's surroundings but imputting images allows for more diversity of image classifications. 
+
 <img width="292" alt="Screen Shot 2021-10-28 at 10 27 32 AM" src="https://user-images.githubusercontent.com/89945550/139960692-554eccd3-d561-4658-bd88-5ad4f2a216fe.png">
 <img width="312" alt="Screen Shot 2021-10-28 at 10 28 09 AM" src="https://user-images.githubusercontent.com/89945550/139960708-e6b8e903-05dc-4405-bfce-f6866a5610a7.png">
 <img width="534" alt="Screen Shot 2021-10-28 at 10 44 47 AM" src="https://user-images.githubusercontent.com/89945550/139960764-83606d7d-ddf7-4a53-8398-025996c4247f.png">
@@ -226,6 +235,10 @@ This can be as simple as the boat detector earlier.
 Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+
+A few week ago, a girl went viral on TikTok because she was invited to a Black Tie wedding and thought that meant she had to wear a black dress; she posted a video of herself trying on multiple short black dresses for the event and TikTok users mocked for for completely missing the dress code and not understanding what black tie meant. This inspired my device which will classify users' outfits based on different dress codes such as semi formal, black tie, business casual, business formal, etc. A user will be able to step in front of their web cam and the algorithm will determine which dress code standard they are following. For example, if a user has an interview coming up that asks for business formal attire, it may be difficult for the user to understand the diffrence between business formal, formal, and business casual outfits. This device will help remedy that. Similarly, if a user is invited to a black tie wedding, the algorithm willl be able to detect whether the user's outfit is black tie, white tie, formal, or semi formal. 
+
+One challenge I am anticipating for this project is determining between stereotypical male and female norms of dressing. The standard of what people can wear for differetn events is constantly evolving and I do not want my device to perpetrate only heterosexual stereotypes For example, at the 2019 Met Gala, Michael Urie wore a half tuxedo half tulle gown outfit that was out of the box and seems difficult to classify; however, Urie is following the Met Gala's dress code. While this is a very specific situation, this challenge reflects the constantly shifting norms and trends of fashion that would be difficult to quantify in a dress code algorithm. 
 
 ### Part C
 ### Test the interaction prototype
