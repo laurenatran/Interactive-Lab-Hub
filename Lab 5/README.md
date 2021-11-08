@@ -236,6 +236,8 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+One event I am very interested in is the Met Gala and my first idea was to build a teachable machine model that would identify different designers. I built a model with photos from the 2021, 2019, and 2018 Met Gala focusing on Louis Vuitton, Gucci, Valentino, and Versace. However, when I trained the model and tested on images from the 2017 Met Gala, the resulting predictions were not very acccurate, likely because the fashion at the Met Gala is so extreme and tailored to specific themes that the looks do not neccessarily correlate or relate directly to any designer's specific aesthetics and it would be difficult for the model to be very precise with very extreme fashion. As a result, I decided to simplify my idea to looking at general dress codes which led me to my next idea.
+
 A few week ago, a girl went viral on TikTok because she was invited to a Black Tie wedding and thought that meant she had to wear a black dress; she posted a video of herself trying on multiple short black dresses for the event and TikTok users mocked for for completely missing the dress code and not understanding what black tie meant. This inspired my device which will classify users' outfits based on different dress codes such as semi formal, black tie, business casual, business formal, etc. A user will be able to step in front of their web cam and the algorithm will determine which dress code standard they are following. For example, if a user has an interview coming up that asks for business formal attire, it may be difficult for the user to understand the diffrence between business formal, formal, and business casual outfits. This device will help remedy that. Similarly, if a user is invited to a black tie wedding, the algorithm willl be able to detect whether the user's outfit is black tie, white tie, formal, or semi formal. 
 
 One challenge I am anticipating for this project is determining between stereotypical male and female norms of dressing. The standard of what people can wear for differetn events is constantly evolving and I do not want my device to perpetrate only heterosexual stereotypes For example, at the 2019 Met Gala, Michael Urie wore a half tuxedo half tulle gown outfit that was out of the box and seems difficult to classify; however, Urie is following the Met Gala's dress code. While this is a very specific situation, this challenge reflects the constantly shifting norms and trends of fashion that would be difficult to quantify in a dress code algorithm. 
@@ -246,9 +248,10 @@ One challenge I am anticipating for this project is determining between stereoty
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+    The device works when it is given photos with clear lighting and a neutral and plain background. Since
+3. When does it fail?
+4. When it fails, why does it fail?
+5. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
