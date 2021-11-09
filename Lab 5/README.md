@@ -268,14 +268,15 @@ While I was excited about building this device when the idea came to mind, while
 
 Users will likely have a general idea of the differences between casual, business casual, and business formal and if the user sees that casual outfits are wrongly being classified as buysiness formal, they will see this as an indication that they will need to change their interaction in some way to get optimal results. This would likely involve them moving to a less busy space with better lighting. 
 
-3. How bad would they be impacted by a miss classification?
+2. How bad would they be impacted by a miss classification?
 
 A miss classification could be problematic professionally but not detrimental. The clothes a person wears is not a reflection of their intellectual skills and capababilities and while showing up to a business formal interview in business casual is not ideal, it is hopefully not very drastic but can still be a negative experience. 
 
-5. How could change your interactive system to address this?
+3. How could change your interactive system to address this?
 
+I could change the instructions of my device to make it clear that the user should stand in front of a minimal background .The current instructions just ask that the user shows their full outfit to the camera but with more detailed instructions, those missclassifications due to the background could be minimized.
 
-7. Are there optimizations you can try to do on your sense-making algorithm.
+4. Are there optimizations you can try to do on your sense-making algorithm.
 
 I could improve the system by increasing the training data size. For my training set, I pulled photos from the internet and cropped them into squares which often involved adding whitespace around the photo so that the entire outfit was shown while still keeping the person in the center. This made the model work very well when the user stands with a white background but not as well when there were more things happening in the background. With a more diverse and thoroughd dataset, the model could be improved. 
 
@@ -298,12 +299,27 @@ A bad environment for my dress code device is a low lit space with a business ba
 
 * When will X break?
 
+My device will break if the user does not have a good webcam or a good place to position their webcame. Ideally, the webcame should be placed around chest level about 3 feet from where the user is standing. 
 
 * When it breaks how will X break?
+
+When the device breaks because the webcame can not get a good picture, it will missclassify the user's outfit based on things other than the outfit such as the background or lighting. 
+
 * What are other properties/behaviors of X?
+
+My device uses a display to tell users if their outfit is casual, business casual, or business formal. It continues to classify outfits if the user continues to input "ready" into the device. 
+
 * How does X feel?
 
+My device feels a bit unreliable when using the raspberry pi camera because the camera has a significant delay and does not feel modern and fast. The feedback from the display is the best way to determine if the device is working because the webcam's feedback display leaves the user questionoing if it is doing the right thing because of the delay and slow appearance. 
+
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+Uncertainty in classifications due to distance: https://drive.google.com/file/d/18A9cQTkxBB-cGuLhSb9Cq4IpRckwicP0/view?usp=sharing
+
+Uncertainty in classifications due to darkness: https://drive.google.com/file/d/1jeg4CSG15-lJB5WMlCda2C5ASPcQM-GP/view?usp=sharing
+
+Uncertainty in classifications due to different poses: https://drive.google.com/file/d/1jvGzKOs8mcrhGiZTnQ7qWjQbtxrdFLSL/view?usp=sharing
+
 
 
 
