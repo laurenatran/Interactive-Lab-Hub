@@ -249,16 +249,19 @@ Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
 
-The model has the highest success rate when I tested it on the teachable machines website using photos I found online of casual, business casual, and business formal outfits. One mistake I was anticipating was failing when multiple people were shown in the photo but surprisingly, the model was accurate in classifying multiple people's outfits as business formal. Simialrly, I was anticipating classification issues with people who were not a typical "size small" and people with disabilities because the model was mainly trained on stock photos from website with people of stereotypical western beauty standards but the model was able to classify outfits on people who were not similar to the training data people. When I tested the model using the webcam and my raspberry pi, the model worked best when I was standing in front of a plain background with a lot of natural light and my entire body was shown. 
+The model has the highest success rate when I tested it on the teachable machines website using photos I found online of casual, business casual, and business formal outfits. One mistake I was anticipating was failing when multiple people were shown in the photo but surprisingly, the model was accurate in classifying multiple people's outfits as business formal. Simialrly, I was anticipating classification issues with people who were not a typical "size small" and people with disabilities because the model was mainly trained on stock photos from website with people of stereotypical western beauty standards but the model was able to classify outfits on people who were not similar to the training data people. When I tested the model using the webcam and my raspberry pi, the model worked best when I was standing in front of a plain background with a lot of natural light.
+
 3. When does it fail?
 
 When testing the model using my raspberry pi and webcam, the model failed when I was standing too close to the camera and when the lighting was not bright. I had tested my device in the middle of the day and it was working well but when I changed it a bit and re tested in the evening, the device made many mistakes in classifying my outfits. Lastly, the model generally started classifying outfits with dark colors and business formal and bright colors as casual. 
 
 5. When it fails, why does it fail?
 
-Regarding the lighting, the device likely failed because the images it was picking up were not detailed enough to make a good prediction. Furthermore, my model may be overfit to the training data. Most of the suits I used for the business formal training data were dark blue, grey, or navy because those are the most common colors. However, this was generalized to classifying most. dark colored outfits included those with black t shirts and ripped black jeans as businness formal when they were most definitely casual. 
+Regarding the lighting, the device likely failed because the images it was picking up were not detailed enough to make a good prediction. Since the model worked better using my computer camera than it did with the raspberry pi webcome, a camera of a certain quality threshold would be necessary for the device to work best. Furthermore, my model may be overfit to the training data. Most of the suits I used for the business formal training data were dark blue, grey, or navy because those are the most common colors. However, this was generalized to classifying most. dark colored outfits included those with black t shirts and ripped black jeans as businness formal when they were most definitely casual. 
 
 7. Based on the behavior you have seen, what other scenarios could cause problems?
+
+While I was excited about building this device when the idea came to mind, while I was building it I saw how this device could be problematic in many ways. The model was trained on western standards of casual, business casual, and business formal. Seeing how the device was overfit to the training set, this device would not be effective on cultures with other standards of dress as well as people with disabilities that may not be able to conform to the traditional American dress codes. The training set was limited and improvements could be made if the model was able to generalize with a larger dataset. Similarly, the model was trained on stereotypical mens and womens styles of dress which despite my initial assumption that they were similar in the world of business fashion, they are not. My options here were to creat separate models for those two genderes or to combine them. I chose to combine them beucase I did not want to perpetrate gender norms and conform people to choosing male or female when using this device but the device did occasionally misclassify wearing athletic shorts or casual dresses as business casual, likely beucase of the business casual skirts used in the training set.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
@@ -272,8 +275,17 @@ Regarding the lighting, the device likely failed because the images it was picki
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+
+I can use my dress code device to identify outfits that are casual, business casual, or business formal.
+
 * What is a good environment for X?
+
+A good environment for my dress code device is a well lit space with minimal background and a good quality webcam in the US. 
+
 * What is a bad environment for X?
+
+A bad environment for my dress code device is a low lit space with a business background with a lesser quality webcam in places that do not conform to American styles of dress. A bad environment would also be when the webcame can not see the user's full body 
+
 * When will X break?
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
