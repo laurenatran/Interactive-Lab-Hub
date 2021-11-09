@@ -273,7 +273,11 @@ Users will likely have a general idea of the differences between casual, busines
 A miss classification could be problematic professionally but not detrimental. The clothes a person wears is not a reflection of their intellectual skills and capababilities and while showing up to a business formal interview in business casual is not ideal, it is hopefully not very drastic but can still be a negative experience. 
 
 5. How could change your interactive system to address this?
-6. Are there optimizations you can try to do on your sense-making algorithm.
+
+
+7. Are there optimizations you can try to do on your sense-making algorithm.
+
+I could improve the system by increasing the training data size. For my training set, I pulled photos from the internet and cropped them into squares which often involved adding whitespace around the photo so that the entire outfit was shown while still keeping the person in the center. This made the model work very well when the user stands with a white background but not as well when there were more things happening in the background. With a more diverse and thoroughd dataset, the model could be improved. 
 
 ### Part D
 ### Characterize your own Observant system
@@ -293,6 +297,8 @@ A good environment for my dress code device is a well lit space with minimal bac
 A bad environment for my dress code device is a low lit space with a business background with a lesser quality webcam in places that do not conform to American styles of dress. A bad environment would also be when the webcame can not see the user's full body 
 
 * When will X break?
+
+
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
 * How does X feel?
