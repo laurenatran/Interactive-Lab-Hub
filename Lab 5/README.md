@@ -245,6 +245,20 @@ One challenge I am anticipating for this project is determining between stereoty
 ### Part C
 ### Test the interaction prototype
 
+Testing on manual uploads: 
+
+<img width="100" alt="Screen Shot 2021-11-08 at 6 41 09 PM" src="https://user-images.githubusercontent.com/89945550/141009223-6ef4afe1-8fa6-4a7d-a1b1-006f4a9c4a6d.png"><img width="303" alt="Screen Shot 2021-11-08 at 6 40 38 PM" src="https://user-images.githubusercontent.com/89945550/141009229-d6d774e1-f5cd-4b7a-9551-52df584c40dd.png">
+
+<img width="100" alt="Screen Shot 2021-11-08 at 6 40 02 PM" src="https://user-images.githubusercontent.com/89945550/141009255-005d9c73-bdfd-4ad4-adda-cd6b39ba8c23.png">
+<img width="100" alt="Screen Shot 2021-11-08 at 6 39 22 PM" src="https://user-images.githubusercontent.com/89945550/141009297-d616b1f2-3751-4f7a-bb77-3c89c7ecbb6f.png">
+<img width="100" alt="Screen Shot 2021-11-08 at 6 38 50 PM" src="https://user-images.githubusercontent.com/89945550/141009325-44223d29-5a27-45ed-9238-91f695b8b43d.png">
+
+<img width="100" alt="Screen Shot 2021-11-08 at 6 38 20 PM" src="https://user-images.githubusercontent.com/89945550/141009358-dcca8b1d-640a-4769-a2c0-3f40dc1e7b83.png">
+
+Testing on computer webcam: 
+<img width="100" alt="Screen Shot 2021-11-09 at 4 41 22 PM" src="https://user-images.githubusercontent.com/89945550/141009452-45a4530b-e0a2-439d-9443-a4e2f59c6015.png">
+
+
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
