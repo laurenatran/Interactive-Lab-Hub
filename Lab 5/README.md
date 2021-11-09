@@ -265,9 +265,15 @@ While I was excited about building this device when the idea came to mind, while
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+Users will likely have a general idea of the differences between casual, business casual, and business formal and if the user sees that casual outfits are wrongly being classified as buysiness formal, they will see this as an indication that they will need to change their interaction in some way to get optimal results. This would likely involve them moving to a less busy space with better lighting. 
+
+3. How bad would they be impacted by a miss classification?
+
+A miss classification could be problematic professionally but not detrimental. The clothes a person wears is not a reflection of their intellectual skills and capababilities and while showing up to a business formal interview in business casual is not ideal, it is hopefully not very drastic but can still be a negative experience. 
+
+5. How could change your interactive system to address this?
+6. Are there optimizations you can try to do on your sense-making algorithm.
 
 ### Part D
 ### Characterize your own Observant system
@@ -292,6 +298,8 @@ A bad environment for my dress code device is a low lit space with a business ba
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+
 
 ### Part 2.
 
