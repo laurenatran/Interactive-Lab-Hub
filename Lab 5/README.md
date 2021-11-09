@@ -248,10 +248,17 @@ One challenge I am anticipating for this project is determining between stereoty
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-    The device works when it is given photos with clear lighting and a neutral and plain background. Since
+
+The model has the highest success rate when I tested it on the teachable machines website using photos I found online of casual, business casual, and business formal outfits. One mistake I was anticipating was failing when multiple people were shown in the photo but surprisingly, the model was accurate in classifying multiple people's outfits as business formal. Simialrly, I was anticipating classification issues with people who were not a typical "size small" and people with disabilities because the model was mainly trained on stock photos from website with people of stereotypical western beauty standards but the model was able to classify outfits on people who were not similar to the training data people. When I tested the model using the webcam and my raspberry pi, the model worked best when I was standing in front of a plain background with a lot of natural light and my entire body was shown. 
 3. When does it fail?
-4. When it fails, why does it fail?
-5. Based on the behavior you have seen, what other scenarios could cause problems?
+
+When testing the model using my raspberry pi and webcam, the model failed when I was standing too close to the camera and when the lighting was not bright. I had tested my device in the middle of the day and it was working well but when I changed it a bit and re tested in the evening, the device made many mistakes in classifying my outfits. Lastly, the model generally started classifying outfits with dark colors and business formal and bright colors as casual. 
+
+5. When it fails, why does it fail?
+
+Regarding the lighting, the device likely failed because the images it was picking up were not detailed enough to make a good prediction. Furthermore, my model may be overfit to the training data. Most of the suits I used for the business formal training data were dark blue, grey, or navy because those are the most common colors. However, this was generalized to classifying most. dark colored outfits included those with black t shirts and ripped black jeans as businness formal when they were most definitely casual. 
+
+7. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
