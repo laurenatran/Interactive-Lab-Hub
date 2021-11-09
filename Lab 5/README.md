@@ -298,3 +298,4 @@ A bad environment for my dress code device is a low lit space with a business ba
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+Final Video: https://drive.google.com/file/d/1MUdU95-Iw4JHz3c66EHvXy8B5eErtYfz/view?usp=sharing 
