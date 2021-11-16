@@ -17,7 +17,7 @@ def draw_text(text):
     font = ImageFont.load_default()
 
     # Draw Some Text
-    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 12)
     (font_width, font_height) = font.getsize(text)
     draw.text(
         (oled.width // 2 - font_width // 2, oled.height // 2 - font_height // 2),
@@ -67,9 +67,9 @@ client.username_pw_set('idd', 'device@theFarm')
 client.connect(
     'farlab.infosci.cornell.edu',
     port=8883)
-channels = ['section', 'bathroom 1','bathroom 2','emergency','food 1', ]
-messages = ['hi!',
-            'dance!',
+channels = ['select ch', 'ch> emergency', 'ch> bathroom 1', 'ch> bathroom 2','ch> emergency','ch> food 1', ]
+messages = ['msg> Help!!!',
+            'msg> dance!',
             'line is 0-10 people',
             'line is 10-25 people',
             'line is 25-40 people',
@@ -109,7 +109,7 @@ while True:
             #message_state += 1
             #message_state = message_state % 5
             mode += 1
-            mode = mode % 2
+            mode = mode % 3
         pressed_since = 0
         prev_time = 0
 
@@ -129,3 +129,5 @@ while True:
         draw_text(channels[channel_state])
     elif mode == 1:
         draw_text(messages[message_state])
+    elif mode == 2:
+        draw_text("msg sent")
