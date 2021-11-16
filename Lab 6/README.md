@@ -205,7 +205,7 @@ For future iterations for the final project we will be adding more complex featu
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-Video: https://drive.google.com/drive/folders/1lrG6iYktK20JwXqN6QWXvExULRUNPWz9?usp=sharing
+Video: https://drive.google.com/file/d/1SVgkmsH7HKQVv_Le5bUmqw4kjKrMLpJg/view?usp=sharing
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
