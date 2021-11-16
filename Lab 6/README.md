@@ -85,6 +85,22 @@ Once connected, you should be able to see all the messages under the IDD topic. 
   ```
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+1. Concert Message Broadcasting: Creating a communication device used specifically for concerts where people can create topics for their section, for the bathroom lines, for the food and merch lines, for emergencies, etc to communicate with others at the concert venue. This would allow users to not be on their phones if they do want to live in the moment and want to avoid being tempted to check on other things in their phone. There would likely have to be a location aspect so that people not actually at the concert venue could not join the communication channels and mess with those actually at the concert
+
+
+2. Smart Refrigerator IoT Broadcasting Items: When items that are low in your refrigerator are ON SALE, a message is broadcasted to all users who need this item and the closest store to them that has this item on sale. Users could also opt in to “all sale” notifications based on their location so whenever any item is on sale near them and they have bought it previously, they are notified
+
+
+3. Alert system for retailers: Usually agents have to show the house to users, but to do this either they need a key or the house owner. We can create a system such that door lock is controlled by rpi and when someone requests access to the house, home owners can approve it over sms
+
+
+4. Smart Mirror: Users get dressed in the morning and look at the mirror one final time before leaving the house. The mirror uses AI to recognize their outfit and cross check it with the weather outside. It then broadcasts the message to all users who aren’t wearing appropriate clothing that they will be too hot or too cold. It will then broadcast the weather to all users all at once
+
+
+5. Patient SOS system: This product is designed for bed ridden patients who need support from nurses or need constant monitoring.
+It will have both automatic mode and manual mode. In manual mode, when the patient needs help, they can press a button on the system, and the hospital's helpdesk or relevant authority would be notified about the same.
+In automatic mode, we will constantly monitor the patient using a camera and in case some unusual motion is detected, it will be notified to the doctors.
+
 
 ### Part C
 ### Streaming a Sensor
@@ -106,8 +122,13 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+![IMG_6767 2](https://user-images.githubusercontent.com/89945550/141885902-0283f590-c959-4fa9-b5b7-5ad6f869dc2d.JPG)
+<img width="259" alt="Screen Shot 2021-11-15 at 12 38 49 PM" src="https://user-images.githubusercontent.com/89945550/141885962-3f7762d2-5fe0-47fe-81fd-4da431cd064f.png">
+
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+![IMG_6768](https://user-images.githubusercontent.com/89945550/141886046-28b44a51-6366-4525-a9b7-791a8c36f668.JPG)
+<img width="259" alt="Screen Shot 2021-11-15 at 12 38 49 PM" src="https://user-images.githubusercontent.com/89945550/141886060-b19e3551-fce3-4873-8910-10ba9481418a.png">
 
 
 ### Part D
@@ -149,11 +170,40 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+On November 5th, Travis Scott hosted his Astroworld Festival, a music festival in Houston where 9 people died and there was outrage over the lack of communication between concert goers, Travis, his team and the venue management. We decided to create a communication wristband meant for users at concerts to improve communication at widespread events. 
+The wristband will have a screen and one button for controls. The screen will show multiple communication channels such as “bathroom lines” and “emergencies” and channels for specific seating sections. Users will be able to choose which channel they broadcast to and which channel they want to see messages from. Any emergency messages will be broadcast to everyone. 
+Because this device is meant to communicate in large networks at concert venues, users will not be able to input custom messages and will use the button to choose options. We considered using a voice to text feature but since concerts are typically very loud, we vetoed this idea. Instead, there will be a fixed amount of messages a user can send to avoid having to put a keyboard or other large input device. For example, in the bathroom channel, users could choose between message options such as “how many people are in line?” “0-10 people” and “10-25 people.” In the section channel, users can send different emojis for fun. 
+ 
+
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+Below are different ideas of possible features and functions of this device, with the final 2 photos showing the final paper prototype design. Users press the button to input their message and the screen is used to show output where the user will be able to see the message they sent as well as incoming messages. The user is at a concert where the wristband will be handed out to all concert goes. Alternatively, more advanced forms of this design could be sold for people to bring to concerts but the idea for this device is that is is simple enough that it is not too expensive and will be able to be given to ticket holders at events similar to how Taylor Swift gives out light up wristbands at her concerts. 
+
+<img width="617" alt="Screen Shot 2021-11-15 at 9 42 21 PM" src="https://user-images.githubusercontent.com/89945550/141886158-83c6872e-55e5-4fc1-b89c-0e630fce63f8.png"><img width="504" alt="Screen Shot 2021-11-15 at 9 42 37 PM" src="https://user-images.githubusercontent.com/89945550/141886190-74d394b1-04d3-459b-9530-6e13b5d3eeaa.png">
+<img width="478" alt="Screen Shot 2021-11-15 at 9 42 50 PM" src="https://user-images.githubusercontent.com/89945550/141886208-4dabf3a3-7611-4050-901c-72e950db8181.png">
+![Quiic Button](https://user-images.githubusercontent.com/89945550/141886296-84e10984-028e-49d6-92aa-f8f83247dd1d.png)
+
+![Quiic Button-2](https://user-images.githubusercontent.com/89945550/141886304-13ad17c1-b65b-4086-ac93-ab6763dd40a9.png)
+
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+The build of the wristband is intuitive and straightforward. In the first iteration (for Lab 6), our prototype has one button (we implemented the QWIC green button). Clicking the button on this wristband will change the channel, and long pressing the button will allow the user to select a message, change the color, and interact with the wristband. As we know with research, products such as the well known and loved Apple Watch only have 2 buttons and are still highly functional. As this wristband’s main purpose is functionality, connectivity, and simplicity, through our first iteration we believe that one button will allow all the features to be accessed easily and intuitively. We also implemented Mini OLED for the display on the wristband and give details to the users about different broadcasted messages through certain “channels”. 
+
+The different channels are programmed to broadcast messages such as food availability and line length, bathroom line length, section announcements and color coordinating selection, and finally an emergency channel. 
+
+During orientation for the concert, users will be given a brief instructional demo so they will know what to expect. 
+In the case of an emergency, the user would not have to select the emergency or notification channel, it would be automatically broadcast to all users in the area of danger/vicinity of the emergency. 
+
+
+For future iterations for the final project we will be adding more complex features including but not limited to: LED lights that light up and indicate the number of people per line: for every 5 people, an additional LED light would turn on. We are also adding the ability to send emojis, other broadcast ways, and thinking that the wristband will also emit a vibration and/or other mode of notifying the user other than light and display. 
+
+
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+Video: https://drive.google.com/drive/folders/1lrG6iYktK20JwXqN6QWXvExULRUNPWz9?usp=sharing
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
